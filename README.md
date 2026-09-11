@@ -43,6 +43,10 @@ I build AI agents that manage real infrastructure reliably:
 | [InsightReports](https://github.com/uMax-Cyber/InsightReports) | Animated SVG report template (dark theme) |
 | [PolyVoice](https://github.com/uMax-Cyber/PolyVoice) | 3-language TTS+STT (ru/en/uz), code-switching |
 
+
+### 🏗 Architecture Overview
+![Infrastructure](architecture.svg)
+
 ### 💡 Philosophy
 > Every operation: **do → verify → report**.  
 > Every failure: **root-cause → document → prevent**.  
