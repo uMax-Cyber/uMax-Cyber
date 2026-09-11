@@ -1,87 +1,142 @@
-<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="500" fill="#0d1117" rx="12"/>
-  <text x="400" y="30" text-anchor="middle" fill="#58a6ff" font-size="20" font-weight="bold">Infrastructure Architecture</text>
-  <!-- Internet (pulsing) -->
-  <rect x="350" y="50" width="100" height="40" fill="#1f2937" stroke="#30363d" rx="8">
+<svg width="820" height="540" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#101826"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="540" fill="url(#bg)" rx="12"/>
+  <text x="410" y="30" text-anchor="middle" fill="#58a6ff" font-size="19" font-weight="bold" font-family="Segoe UI, sans-serif">Infrastructure Architecture
+    <animate attributeName="opacity" values="0;1;1" dur="1.2s" fill="freeze"/>
+  </text>
+
+  <!-- Internet -->
+  <rect x="350" y="46" width="120" height="38" fill="#1f2937" stroke="#30363d" rx="8">
     <animate attributeName="stroke" values="#30363d;#58a6ff;#30363d" dur="3s" repeatCount="indefinite"/>
   </rect>
-  <text x="400" y="75" text-anchor="middle" fill="#e6edf3" font-size="14">🌐 Internet</text>
-  <!-- Animated connection lines -->
-  <line x1="400" y1="90" x2="300" y2="130" stroke="#30363d" stroke-width="2">
+  <text x="410" y="70" text-anchor="middle" fill="#e6edf3" font-size="13" font-family="Segoe UI, sans-serif">🌐 Internet</text>
+
+  <line x1="410" y1="84" x2="300" y2="112" stroke="#30363d" stroke-width="2">
     <animate attributeName="stroke" values="#30363d;#f85149;#30363d" dur="2s" repeatCount="indefinite"/>
   </line>
-  <line x1="400" y1="90" x2="500" y2="130" stroke="#30363d" stroke-width="2">
+  <line x1="410" y1="84" x2="520" y2="112" stroke="#30363d" stroke-width="2">
     <animate attributeName="stroke" values="#30363d;#f85149;#30363d" dur="2s" begin="1s" repeatCount="indefinite"/>
   </line>
-  <!-- Firewalls (red glow) -->
-  <rect x="250" y="130" width="100" height="40" fill="#1f2937" stroke="#f85149" rx="8">
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+
+  <!-- Firewalls -->
+  <rect x="240" y="112" width="120" height="38" fill="#1f2937" stroke="#f85149" rx="8">
+    <animate attributeName="opacity" values="1;0.75;1" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <text x="300" y="155" text-anchor="middle" fill="#f85149" font-size="13">🔥 FW-GW1</text>
-  <rect x="450" y="130" width="100" height="40" fill="#1f2937" stroke="#f85149" rx="8">
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  <text x="300" y="136" text-anchor="middle" fill="#f85149" font-size="13" font-family="Segoe UI, sans-serif">🔥 Firewall A</text>
+  <rect x="460" y="112" width="120" height="38" fill="#1f2937" stroke="#f85149" rx="8">
+    <animate attributeName="opacity" values="1;0.75;1" dur="2s" begin="0.5s" repeatCount="indefinite"/>
   </rect>
-  <text x="500" y="155" text-anchor="middle" fill="#f85149" font-size="13">🔥 FW-GW2</text>
-  <!-- Connections to core -->
-  <line x1="300" y1="170" x2="400" y2="210" stroke="#30363d" stroke-width="2">
-    <animate attributeName="stroke" values="#30363d;#58a6ff;#30363d" dur="2.5s" repeatCount="indefinite"/>
-  </line>
-  <line x1="500" y1="170" x2="400" y2="210" stroke="#30363d" stroke-width="2">
-    <animate attributeName="stroke" values="#30363d;#58a6ff;#30363d" dur="2.5s" begin="0.7s" repeatCount="indefinite"/>
-  </line>
-  <!-- Core switch (blue pulse) -->
-  <rect x="330" y="210" width="140" height="40" fill="#1f2937" stroke="#58a6ff" rx="8">
-    <animate attributeName="stroke-width" values="1;3;1" dur="2s" repeatCount="indefinite"/>
-  </rect>
-  <text x="400" y="235" text-anchor="middle" fill="#58a6ff" font-size="13">🔀 Core Switch</text>
-  <!-- Connections to nodes -->
-  <line x1="400" y1="250" x2="200" y2="290" stroke="#30363d" stroke-width="2">
-    <animate attributeName="stroke" values="#30363d;#3fb950;#30363d" dur="3s" repeatCount="indefinite"/>
-  </line>
-  <line x1="400" y1="250" x2="400" y2="290" stroke="#30363d" stroke-width="2">
-    <animate attributeName="stroke" values="#30363d;#3fb950;#30363d" dur="3s" begin="1s" repeatCount="indefinite"/>
-  </line>
-  <line x1="400" y1="250" x2="600" y2="290" stroke="#30363d" stroke-width="2">
-    <animate attributeName="stroke" values="#30363d;#3fb950;#30363d" dur="3s" begin="2s" repeatCount="indefinite"/>
-  </line>
-  <!-- Proxmox nodes (green breathing) -->
-  <rect x="130" y="290" width="140" height="50" fill="#1f2937" stroke="#3fb950" rx="8">
-    <animate attributeName="opacity" values="1;0.8;1" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  <text x="200" y="310" text-anchor="middle" fill="#3fb950" font-size="13">🖥 Proxmox Node 1</text>
-  <text x="200" y="328" text-anchor="middle" fill="#8b949e" font-size="11">Firewalls + DHCP</text>
-  <rect x="330" y="290" width="140" height="50" fill="#1f2937" stroke="#3fb950" rx="8">
-    <animate attributeName="opacity" values="1;0.8;1" dur="3s" begin="1s" repeatCount="indefinite"/>
-  </rect>
-  <text x="400" y="310" text-anchor="middle" fill="#3fb950" font-size="13">🖥 Proxmox Node 2</text>
-  <text x="400" y="328" text-anchor="middle" fill="#8b949e" font-size="11">AI Agent + Controller</text>
-  <rect x="530" y="290" width="140" height="50" fill="#1f2937" stroke="#3fb950" rx="8">
-    <animate attributeName="opacity" values="1;0.8;1" dur="3s" begin="2s" repeatCount="indefinite"/>
-  </rect>
-  <text x="600" y="310" text-anchor="middle" fill="#3fb950" font-size="13">🖥 Proxmox Node 3</text>
-  <text x="600" y="328" text-anchor="middle" fill="#8b949e" font-size="11">Services + Storage</text>
-  <!-- Monitoring (yellow radar) -->
-  <circle cx="230" cy="405" r="0" fill="none" stroke="#d29922" stroke-width="1" opacity="0.5">
-    <animate attributeName="r" values="0;60;0" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite"/>
+  <text x="520" y="136" text-anchor="middle" fill="#f85149" font-size="13" font-family="Segoe UI, sans-serif">🔥 Firewall B</text>
+
+  <!-- HA heartbeat -->
+  <line x1="360" y1="131" x2="460" y2="131" stroke="#30363d" stroke-width="2" stroke-dasharray="5 5"/>
+  <circle r="3" fill="#d29922">
+    <animateMotion dur="2.4s" repeatCount="indefinite" path="M 362 131 L 458 131"/>
   </circle>
-  <rect x="130" y="380" width="200" height="50" fill="#1f2937" stroke="#d29922" rx="8">
-    <animate attributeName="stroke" values="#d29922;#f9e2af;#d29922" dur="2s" repeatCount="indefinite"/>
+
+  <line x1="300" y1="150" x2="300" y2="176" stroke="#30363d" stroke-width="2"/>
+  <line x1="520" y1="150" x2="520" y2="176" stroke="#30363d" stroke-width="2"/>
+  <line x1="180" y1="176" x2="640" y2="176" stroke="#30363d" stroke-width="2"/>
+
+  <!-- Core switches -->
+  <rect x="230" y="176" width="140" height="34" fill="#1f2937" stroke="#3fbc50" rx="8">
+    <animate attributeName="stroke" values="#3fbc50;#2ea043;#3fbc50" dur="3s" repeatCount="indefinite"/>
   </rect>
-  <text x="230" y="400" text-anchor="middle" fill="#d29922" font-size="13">📊 Syslog + Monitoring</text>
-  <text x="230" y="418" text-anchor="middle" fill="#8b949e" font-size="11">NightWatch + AuditForge</text>
-  <!-- AI Agent (purple glow) -->
-  <circle cx="570" cy="405" r="0" fill="none" stroke="#bc8cff" stroke-width="1" opacity="0.5">
-    <animate attributeName="r" values="0;60;0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  <text x="300" y="198" text-anchor="middle" fill="#3fbc50" font-size="12" font-family="Segoe UI, sans-serif">Core Switch 1</text>
+  <rect x="450" y="176" width="140" height="34" fill="#1f2937" stroke="#3fbc50" rx="8">
+    <animate attributeName="stroke" values="#3fbc50;#2ea043;#3fbc50" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="520" y="198" text-anchor="middle" fill="#3fbc50" font-size="12" font-family="Segoe UI, sans-serif">Core Switch 2</text>
+
+  <!-- moving packets -->
+  <circle r="3.5" fill="#58a6ff">
+    <animateMotion dur="2.8s" repeatCount="indefinite" path="M 410 176 L 410 230 L 180 230 L 180 250"/>
   </circle>
-  <rect x="470" y="380" width="200" height="50" fill="#1f2937" stroke="#bc8cff" rx="8">
-    <animate attributeName="stroke" values="#bc8cff;#e0c3fc;#bc8cff" dur="2s" begin="0.5s" repeatCount="indefinite"/>
-  </rect>
-  <text x="570" y="400" text-anchor="middle" fill="#bc8cff" font-size="13">🤖 AI Agent</text>
-  <text x="570" y="418" text-anchor="middle" fill="#8b949e" font-size="11">MCPForge + AgentBlueprint</text>
-  <text x="100" y="470" fill="#8b949e" font-size="11" opacity="0">
-    Production deployment architecture
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
-  </text>
+  <circle r="3.5" fill="#bc8cff">
+    <animateMotion dur="3.4s" begin="0.8s" repeatCount="indefinite" path="M 410 176 L 410 250"/>
+  </circle>
+  <circle r="3.5" fill="#e7811d">
+    <animateMotion dur="3.1s" begin="1.6s" repeatCount="indefinite" path="M 410 176 L 410 230 L 640 230 L 640 250"/>
+  </circle>
+
+  <!-- Network zones -->
+  <g>
+    <rect x="90" y="250" width="180" height="86" fill="#161b22" stroke="#30363d" rx="10">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.4s" fill="freeze"/>
+    </rect>
+    <text x="180" y="270" text-anchor="middle" fill="#58a6ff" font-size="13" font-weight="bold" font-family="Segoe UI, sans-serif">Office Zone</text>
+    <text x="180" y="287" text-anchor="middle" fill="#8b949e" font-size="11" font-family="monospace">staff VLAN · Wi-Fi</text>
+    <g fill="#a6e3a1">
+      <circle cx="130" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="155" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.4s" repeatCount="indefinite"/></circle>
+      <circle cx="180" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="205" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="230" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.6s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="180" y="324" text-anchor="middle" fill="#8b949e" font-size="10" font-family="monospace">access points</text>
+  </g>
+  <g>
+    <rect x="320" y="250" width="180" height="86" fill="#161b22" stroke="#30363d" rx="10">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
+    </rect>
+    <text x="410" y="270" text-anchor="middle" fill="#bc8cff" font-size="13" font-weight="bold" font-family="Segoe UI, sans-serif">Campus Zone</text>
+    <text x="410" y="287" text-anchor="middle" fill="#8b949e" font-size="11" font-family="monospace">student VLANs · Wi-Fi</text>
+    <g fill="#a6e3a1">
+      <circle cx="360" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="385" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" begin="0.5s" repeatCount="indefinite"/></circle>
+      <circle cx="410" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="435" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" begin="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="460" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" begin="2s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="410" y="324" text-anchor="middle" fill="#8b949e" font-size="10" font-family="monospace">high-density Wi-Fi</text>
+  </g>
+  <g>
+    <rect x="550" y="250" width="180" height="86" fill="#161b22" stroke="#30363d" rx="10">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze"/>
+    </rect>
+    <text x="640" y="270" text-anchor="middle" fill="#e7811d" font-size="13" font-weight="bold" font-family="Segoe UI, sans-serif">DMZ / Services</text>
+    <text x="640" y="287" text-anchor="middle" fill="#8b949e" font-size="11" font-family="monospace">cameras · printers · IoT</text>
+    <g fill="#a6e3a1">
+      <circle cx="590" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="615" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="640" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="665" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" begin="0.3s" repeatCount="indefinite"/></circle>
+      <circle cx="690" cy="303" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" begin="0.9s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="640" y="324" text-anchor="middle" fill="#8b949e" font-size="10" font-family="monospace">segmented VLANs</text>
+  </g>
+
+  <!-- Virtualization -->
+  <rect x="90" y="366" width="640" height="120" fill="#161b22" stroke="#30363d" rx="10"/>
+  <text x="410" y="388" text-anchor="middle" fill="#3fbc50" font-size="13" font-weight="bold" font-family="Segoe UI, sans-serif">Virtualization &amp; Automation</text>
+
+  <rect x="115" y="401" width="120" height="30" fill="#1f2937" stroke="#58a6ff" rx="6"/>
+  <text x="175" y="420" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="monospace">hypervisor</text>
+  <rect x="255" y="401" width="120" height="30" fill="#1f2937" stroke="#bc8cff" rx="6"/>
+  <text x="315" y="420" text-anchor="middle" fill="#bc8cff" font-size="11" font-family="monospace">ops agent</text>
+  <rect x="395" y="401" width="120" height="30" fill="#1f2937" stroke="#d29922" rx="6"/>
+  <text x="455" y="420" text-anchor="middle" fill="#d29922" font-size="11" font-family="monospace">RAG / KB</text>
+  <rect x="535" y="401" width="120" height="30" fill="#1f2937" stroke="#3fbc50" rx="6"/>
+  <text x="595" y="420" text-anchor="middle" fill="#3fbc50" font-size="11" font-family="monospace">monitoring</text>
+
+  <line x1="100" y1="446" x2="720" y2="446" stroke="#58a6ff" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="x1" values="100;720;100" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="130;750;130" dur="6s" repeatCount="indefinite"/>
+  </line>
+  <text x="410" y="472" text-anchor="middle" fill="#8b949e" font-size="11" font-family="monospace">cron automation · runbooks · alerting · knowledge base</text>
+
+  <circle r="4" fill="#3fbc50">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M 180 336 L 180 366"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#3fbc50">
+    <animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M 640 336 L 640 366"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="410" y="514" text-anchor="middle" fill="#484f58" font-size="10" font-family="monospace">redundant uplinks · HA firewalls · segmented VLANs · automated operations</text>
 </svg>
