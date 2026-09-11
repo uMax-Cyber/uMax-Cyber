@@ -133,7 +133,7 @@ Proxmox VE · UniFi · Sophos Firewall · VLAN · DHCP · Syslog · MCP · AI ag
 | 20 | [uMax-Cyber](https://github.com/uMax-Cyber/uMax-Cyber) | Bu profil README |
 
 **🎯 Asosiy loyihalar (1-16)** — production infratuzilma va AI vositalar
-**📦 Ilgʻor loyihalar (17-20)** — avtomatizatsiya va tadqiqot
+**📦 Eski loyihalar (17-20)** — avvalgi avtomatizatsiya va tadqiqot ishlari
 
 ### 🏗 Arxitektura
 ![Infratuzilma](architecture.svg)
