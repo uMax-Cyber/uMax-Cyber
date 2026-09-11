@@ -36,11 +36,10 @@ Proxmox VE · UniFi · Sophos Firewall · VLAN · DHCP · Syslog · MCP · AI Ag
 | 17 | [AnsibleLab](https://github.com/uMax-Cyber/AnsibleLab) | Ansible automation playbooks |
 | 18 | [AutoKit](https://github.com/uMax-Cyber/AutoKit) | Python automation scripts collection |
 | 19 | [ArcherSec](https://github.com/uMax-Cyber/ArcherSec) | Security tools and research |
-| 20 | [AnsibleVault](https://github.com/uMax-Cyber/AnsibleVault) | Ansible infrastructure (private) |
-| 21 | [uMax-Cyber](https://github.com/uMax-Cyber/uMax-Cyber) | This profile README |
+| 20 | [uMax-Cyber](https://github.com/uMax-Cyber/uMax-Cyber) | This profile README |
 
 **🎯 Core Projects (1-16)** — production-grade infrastructure and AI tools
-**📦 Legacy Projects (17-21)** — earlier automation and research work
+**📦 Legacy Projects (17-20)** — earlier automation and research work
 
 ### 🏗 Architecture
 ![Infrastructure](architecture.svg)
@@ -84,11 +83,10 @@ Proxmox VE · UniFi · Sophos Firewall · VLAN · DHCP · Syslog · MCP · ИИ-
 | 17 | [AnsibleLab](https://github.com/uMax-Cyber/AnsibleLab) | Ansible-плейбуки |
 | 18 | [AutoKit](https://github.com/uMax-Cyber/AutoKit) | Python-скрипты автоматизации |
 | 19 | [ArcherSec](https://github.com/uMax-Cyber/ArcherSec) | Инструменты безопасности |
-| 20 | [AnsibleVault](https://github.com/uMax-Cyber/AnsibleVault) | Ansible-инфраструктура (private) |
-| 21 | [uMax-Cyber](https://github.com/uMax-Cyber/uMax-Cyber) | Этот README-профиль |
+| 20 | [uMax-Cyber](https://github.com/uMax-Cyber/uMax-Cyber) | Этот README-профиль |
 
 **🎯 Основные проекты (1-16)** — production-инфраструктура и ИИ-инструменты
-**📦 Ранние проекты (17-21)** — автоматизация и исследования
+**📦 Ранние проекты (17-20)** — автоматизация и исследования
 
 ### 🏗 Архитектура
 ![Инфраструктура](architecture.svg)
@@ -132,11 +130,10 @@ Proxmox VE · UniFi · Sophos Firewall · VLAN · DHCP · Syslog · MCP · AI ag
 | 17 | [AnsibleLab](https://github.com/uMax-Cyber/AnsibleLab) | Ansible avtomatizatsiya |
 | 18 | [AutoKit](https://github.com/uMax-Cyber/AutoKit) | Python skriptlar toʻplami |
 | 19 | [ArcherSec](https://github.com/uMax-Cyber/ArcherSec) | Xavfsizlik vositalari |
-| 20 | [AnsibleVault](https://github.com/uMax-Cyber/AnsibleVault) | Ansible infratuzilma (private) |
-| 21 | [uMax-Cyber](https://github.com/uMax-Cyber/uMax-Cyber) | Bu profil README |
+| 20 | [uMax-Cyber](https://github.com/uMax-Cyber/uMax-Cyber) | Bu profil README |
 
 **🎯 Asosiy loyihalar (1-16)** — production infratuzilma va AI vositalar
-**📦 Ilgʻor loyihalar (17-21)** — avtomatizatsiya va tadqiqot
+**📦 Ilgʻor loyihalar (17-20)** — avtomatizatsiya va tadqiqot
 
 ### 🏗 Arxitektura
 ![Infratuzilma](architecture.svg)
