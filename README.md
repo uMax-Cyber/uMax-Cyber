@@ -1,43 +1,41 @@
 <div align="center">
 
-**🇬🇧 [English](README.md) · 🇷🇺 [Русский](#-русский) · 🇺🇿 [Oʻzbekcha](#-oʻzbekcha)**
+[![English](https://img.shields.io/badge/README-English-blue)](#english)
+[![Русский](https://img.shields.io/badge/README-Русский-red)](#русский)
+[![Oʻzbekcha](https://img.shields.io/badge/README-Oʻzbekcha-green)](#oʻzbekcha)
 
 </div>
 
-## Sysadmin / Network Engineer
+## English
 
-I design, build, and operate production infrastructure with AI-assisted automation.
+Sysadmin & Network Engineer. I build and operate production infrastructure with AI-assisted automation.
 
-### 🔧 What I Work With
-- **Virtualization**: Proxmox VE (multi-node, cloud-init, golden templates)
-- **Networking**: UniFi (96+ devices), Sophos Firewall (dual-gateway), VLANs
-- **Automation**: MCP servers, AI agents, Bash/Python tooling
-- **Monitoring**: Syslog, DHCP diagnostics, RF analysis, security audits
+### 🔧 Skills
+Proxmox VE · UniFi · Sophos Firewall · VLAN · DHCP · Syslog · MCP · AI Agents · Terraform · Bash · Python
 
-### 🤖 AI Ops
-- Anti-hallucination training (0% fabrication on 36-test suite)
-- Safety-tiered autonomy (read-only / confirm-first / never-touch)
-- Dual-fallback memory (RAG + file vault)
-- Team delegation via kanban (up to 9 concurrent workers)
+### 📌 All Projects
 
-### 📌 Featured Projects
+| # | Project | Description |
+|---|---------|-------------|
+| 1 | [ProxmOps](https://github.com/uMax-Cyber/ProxmOps) | Proxmox VM provisioning, cloud-init, disk resize |
+| 2 | [NetPulse](https://github.com/uMax-Cyber/NetPulse) | Wi-Fi diagnostics: DHCP pool, roaming, RF analysis |
+| 3 | [DHCPGuard](https://github.com/uMax-Cyber/DHCPGuard) | Sophos DHCP scope audit, silent denial detection |
+| 4 | [PortLens](https://github.com/uMax-Cyber/PortLens) | UniFi switch port auditor, anomaly detection |
+| 5 | [VLANscope](https://github.com/uMax-Cyber/VLANscope) | VLAN troubleshooting, native mismatch, DHCP relay |
+| 6 | [NightWatch](https://github.com/uMax-Cyber/NightWatch) | Deterministic monitoring (no LLM), cron alerts |
+| 7 | [AuditForge](https://github.com/uMax-Cyber/AuditForge) | Weekly automated security audit |
+| 8 | [MCPForge](https://github.com/uMax-Cyber/MCPForge) | MCP architecture: routed-tools, safety tiers |
+| 9 | [AgentBlueprint](https://github.com/uMax-Cyber/AgentBlueprint) | AI agent training: anti-hallucination, delegation |
+| 10 | [AgentBench](https://github.com/uMax-Cyber/AgentBench) | 36-test automated grading for AI tools |
+| 11 | [RAGOps](https://github.com/uMax-Cyber/RAGOps) | LightRAG production operations guide |
+| 12 | [TerraForm-Lab](https://github.com/uMax-Cyber/TerraForm-Lab) | Terraform IaC for Proxmox VE |
+| 13 | [OpsPlaybook](https://github.com/uMax-Cyber/OpsPlaybook) | Production runbooks with real incident lessons |
+| 14 | [LogForge](https://github.com/uMax-Cyber/LogForge) | Multi-vendor syslog routing hub |
+| 15 | [InsightReports](https://github.com/uMax-Cyber/InsightReports) | Animated SVG report template (dark theme) |
+| 16 | [PolyVoice](https://github.com/uMax-Cyber/PolyVoice) | 3-language TTS + STT (ru/en/uz) |
 
-| Project | Focus |
-|---------|-------|
-| [ProxmOps](https://github.com/uMax-Cyber/ProxmOps) | VM provisioning, disk resize, traps |
-| [NetPulse](https://github.com/uMax-Cyber/NetPulse) | Wi-Fi diagnostics, DHCP pool, RF |
-| [MCPForge](https://github.com/uMax-Cyber/MCPForge) | MCP architecture, safety tiers |
-| [AgentBlueprint](https://github.com/uMax-Cyber/AgentBlueprint) | AI agent training, tool patterns |
-| [NightWatch](https://github.com/uMax-Cyber/NightWatch) | Deterministic monitoring |
-| [TerraForm-Lab](https://github.com/uMax-Cyber/TerraForm-Lab) | Terraform IaC for Proxmox |
-
-### 🏗 Architecture Overview
+### 🏗 Architecture
 ![Infrastructure](architecture.svg)
-
-### 💡 Philosophy
-> Every operation: **do → verify → report**.  
-> Every failure: **root-cause → document → prevent**.  
-> Every automation: **safety tiers first**.
 
 ### 📬 Contact
 📧 **[allumaxmail@gmail.com](mailto:allumaxmail@gmail.com)**
@@ -46,41 +44,38 @@ I design, build, and operate production infrastructure with AI-assisted automati
 
 <div align="center">
 
-## 🇷🇺 Русский
+## Русский
 
 </div>
 
-## Системный администратор / Сетевой инженер
+Системный администратор и сетевой инженер. Проектирую и обслуживаю production-инфраструктуру с автоматизацией на базе ИИ.
 
-Проектирую, строю и обслуживаю production-инфраструктуру с автоматизацией на базе ИИ.
+### 🔧 Навыки
+Proxmox VE · UniFi · Sophos Firewall · VLAN · DHCP · Syslog · MCP · ИИ-агенты · Terraform · Bash · Python
 
-### 🔧 С чем работаю
-- **Виртуализация**: Proxmox VE (multi-node, cloud-init, золотые шаблоны)
-- **Сети**: UniFi (96+ устройств), Sophos Firewall (dual-gateway), VLAN
-- **Автоматизация**: MCP-серверы, ИИ-агенты, Bash/Python
-- **Мониторинг**: Syslog, DHCP-диагностика, RF-анализ, аудиты безопасности
+### 📌 Все проекты
 
-### 🤖 AI Ops
-- Обучение анти-галлюцинации (0% на 36-тестовом наборе)
-- Трёхуровневая автономия (read-only / подтверждение / никогда)
-- Dual-fallback память (RAG + файловый vault)
-- Командная делегация через kanban (до 9 параллельных воркеров)
+| № | Проект | Описание |
+|---|--------|----------|
+| 1 | [ProxmOps](https://github.com/uMax-Cyber/ProxmOps) | Провижининг VM Proxmox, cloud-init, resize |
+| 2 | [NetPulse](https://github.com/uMax-Cyber/NetPulse) | Диагностика Wi-Fi: DHCP-пул, роуминг, RF |
+| 3 | [DHCPGuard](https://github.com/uMax-Cyber/DHCPGuard) | Sophos DHCP аудит, silent denial |
+| 4 | [PortLens](https://github.com/uMax-Cyber/PortLens) | Аудитор портов UniFi, аномалии |
+| 5 | [VLANscope](https://github.com/uMax-Cyber/VLANscope) | Диагностика VLAN, native mismatch |
+| 6 | [NightWatch](https://github.com/uMax-Cyber/NightWatch) | Мониторинг без LLM, cron-алерты |
+| 7 | [AuditForge](https://github.com/uMax-Cyber/AuditForge) | Еженедельный аудит безопасности |
+| 8 | [MCPForge](https://github.com/uMax-Cyber/MCPForge) | MCP-архитектура: routed-tools, safety |
+| 9 | [AgentBlueprint](https://github.com/uMax-Cyber/AgentBlueprint) | Обучение ИИ-агентов, анти-галлюцинация |
+| 10 | [AgentBench](https://github.com/uMax-Cyber/AgentBench) | 36 тестов для ИИ-инструментов |
+| 11 | [RAGOps](https://github.com/uMax-Cyber/RAGOps) | LightRAG production-эксплуатация |
+| 12 | [TerraForm-Lab](https://github.com/uMax-Cyber/TerraForm-Lab) | Terraform IaC для Proxmox |
+| 13 | [OpsPlaybook](https://github.com/uMax-Cyber/OpsPlaybook) | Production runbook'и |
+| 14 | [LogForge](https://github.com/uMax-Cyber/LogForge) | Syslog-хаб multi-vendor |
+| 15 | [InsightReports](https://github.com/uMax-Cyber/InsightReports) | Анимированные SVG-отчёты |
+| 16 | [PolyVoice](https://github.com/uMax-Cyber/PolyVoice) | TTS + STT на 3 языках |
 
-### 📌 Проекты
-
-| Проект | Направление |
-|--------|-------------|
-| [ProxmOps](https://github.com/uMax-Cyber/ProxmOps) | Провижининг VM, resize дисков |
-| [NetPulse](https://github.com/uMax-Cyber/NetPulse) | Диагностика Wi-Fi, DHCP, RF |
-| [MCPForge](https://github.com/uMax-Cyber/MCPForge) | MCP-архитектура, safety |
-| [AgentBlueprint](https://github.com/uMax-Cyber/AgentBlueprint) | Обучение ИИ-агентов |
-| [NightWatch](https://github.com/uMax-Cyber/NightWatch) | Детерминированный мониторинг |
-| [TerraForm-Lab](https://github.com/uMax-Cyber/TerraForm-Lab) | Terraform IaC |
-
-### 💡 Философия
-> Каждая операция: **сделал → проверил → отчитался**.  
-> Каждая ошибка: **причина → документация → профилактика**.  
-> Каждая автоматизация: **сначала безопасность**.
+### 🏗 Архитектура
+![Инфраструктура](architecture.svg)
 
 ### 📬 Контакты
 📧 **[allumaxmail@gmail.com](mailto:allumaxmail@gmail.com)**
@@ -89,41 +84,38 @@ I design, build, and operate production infrastructure with AI-assisted automati
 
 <div align="center">
 
-## 🇺🇿 Oʻzbekcha
+## Oʻzbekcha
 
 </div>
 
-## Tizim administratori / Tarmoq muhandisi
+Tizim administratori va tarmoq muhandisi. Production infratuzilmani AI yordamida avtomatlashtirib yuritaman.
 
-Production infratuzilmani AI-boshqaruv bilan loyihalash, qurish va yuritish.
+### 🔧 Koʻnikmalar
+Proxmox VE · UniFi · Sophos Firewall · VLAN · DHCP · Syslog · MCP · AI agentlar · Terraform · Bash · Python
 
-### 🔧 Bilim sohalari
-- **Virtualizatsiya**: Proxmox VE (multi-node, cloud-init, oltin shablonlar)
-- **Tarmoq**: UniFi (96+ qurilma), Sophos Firewall (dual-gateway), VLAN
-- **Avtomatizatsiya**: MCP serverlar, AI agentlar, Bash/Python
-- **Monitoring**: Syslog, DHCP diagnostika, RF tahlil, xavfsizlik auditlari
+### 📌 Barcha loyihalar
 
-### 🤖 AI Ops
-- Anti-hallucination o'qitish (36 testda 0% xato)
-- Uch darajali avtonomiya (read-only / tasdiq / hech qachon)
-- Dual-fallback xotira (RAG + fayl vault)
-- Jamoa delegatsiyasi kanban orqali (9 tagacha parallel worker)
+| № | Loyiha | Tavsif |
+|---|--------|--------|
+| 1 | [ProxmOps](https://github.com/uMax-Cyber/ProxmOps) | Proxmox VM yaratish, cloud-init, disk |
+| 2 | [NetPulse](https://github.com/uMax-Cyber/NetPulse) | Wi-Fi diagnostika: DHCP, roaming, RF |
+| 3 | [DHCPGuard](https://github.com/uMax-Cyber/DHCPGuard) | Sophos DHCP auditi, jim rad etish |
+| 4 | [PortLens](https://github.com/uMax-Cyber/PortLens) | UniFi port auditori, anomaliyalar |
+| 5 | [VLANscope](https://github.com/uMax-Cyber/VLANscope) | VLAN muammolarini bartaraf etish |
+| 6 | [NightWatch](https://github.com/uMax-Cyber/NightWatch) | LLMsiz monitoring, cron ogohlantirish |
+| 7 | [AuditForge](https://github.com/uMax-Cyber/AuditForge) | Haftalik xavfsizlik auditi |
+| 8 | [MCPForge](https://github.com/uMax-Cyber/MCPForge) | MCP arxitekturasi: safety, routing |
+| 9 | [AgentBlueprint](https://github.com/uMax-Cyber/AgentBlueprint) | AI agent oʻqitish, anti-hallucination |
+| 10 | [AgentBench](https://github.com/uMax-Cyber/AgentBench) | AI vositalar uchun 36 test |
+| 11 | [RAGOps](https://github.com/uMax-Cyber/RAGOps) | LightRAG tizimini yuritish |
+| 12 | [TerraForm-Lab](https://github.com/uMax-Cyber/TerraForm-Lab) | Proxmox uchun Terraform IaC |
+| 13 | [OpsPlaybook](https://github.com/uMax-Cyber/OpsPlaybook) | Ishlab chiqarish qoʻllanmalari |
+| 14 | [LogForge](https://github.com/uMax-Cyber/LogForge) | Koʻp manbali syslog markazi |
+| 15 | [InsightReports](https://github.com/uMax-Cyber/InsightReports) | Animatsiyali SVG hisobotlar |
+| 16 | [PolyVoice](https://github.com/uMax-Cyber/PolyVoice) | 3 tilda TTS + STT (ru/en/uz) |
 
-### 📌 Loyihalar
-
-| Loyiha | Yo'nalish |
-|--------|-----------|
-| [ProxmOps](https://github.com/uMax-Cyber/ProxmOps) | VM yaratish, disk resize |
-| [NetPulse](https://github.com/uMax-Cyber/NetPulse) | Wi-Fi diagnostika, DHCP |
-| [MCPForge](https://github.com/uMax-Cyber/MCPForge) | MCP arxitekturasi |
-| [AgentBlueprint](https://github.com/uMax-Cyber/AgentBlueprint) | AI agent o'qitish |
-| [NightWatch](https://github.com/uMax-Cyber/NightWatch) | Deterministik monitoring |
-| [TerraForm-Lab](https://github.com/uMax-Cyber/TerraForm-Lab) | Terraform IaC |
-
-### 💡 Falsafa
-> Har bir operatsiya: **qil → tekshir → hisobot**.  
-> Har bir xato: **sabab → hujjat → profilaktika**.  
-> Har bir avtomatizatsiya: **avval xavfsizlik**.
+### 🏗 Arxitektura
+![Infratuzilma](architecture.svg)
 
 ### 📬 Aloqa
 📧 **[allumaxmail@gmail.com](mailto:allumaxmail@gmail.com)**
@@ -132,6 +124,8 @@ Production infratuzilmani AI-boshqaruv bilan loyihalash, qurish va yuritish.
 
 <div align="center">
 
-**🇬🇧 [English](#sysadmin--network-engineer) · 🇷🇺 [Русский](#-русский) · 🇺🇿 [Oʻzbekcha](#-oʻzbekcha)**
+[![English](https://img.shields.io/badge/README-English-blue)](#english)
+[![Русский](https://img.shields.io/badge/README-Русский-red)](#русский)
+[![Oʻzbekcha](https://img.shields.io/badge/README-Oʻzbekcha-green)](#oʻzbekcha)
 
 </div>
